@@ -1,14 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huginn.Database", "src\Huginn.Database\Huginn.Database.csproj", "{8442A688-C163-4A39-986E-944C468D18E1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D4BAC98-7908-4081-8F48-3C3ECD126562}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huginn.Common", "src\Huginn.Common\Huginn.Common.csproj", "{2A330142-B359-45C8-9C40-08821B85AFED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huginn.Application", "src\Huginn.Application\Huginn.Application.csproj", "{92844587-8C54-4DED-9CD7-2A1ED44C6B8C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huginn.Application.Contract", "src\Huginn.Application.Contract\Huginn.Application.Contract.csproj", "{54CA8CAB-F437-4472-AEA8-95C9259F8256}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,27 +8,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8442A688-C163-4A39-986E-944C468D18E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8442A688-C163-4A39-986E-944C468D18E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8442A688-C163-4A39-986E-944C468D18E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8442A688-C163-4A39-986E-944C468D18E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A330142-B359-45C8-9C40-08821B85AFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A330142-B359-45C8-9C40-08821B85AFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A330142-B359-45C8-9C40-08821B85AFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A330142-B359-45C8-9C40-08821B85AFED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92844587-8C54-4DED-9CD7-2A1ED44C6B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92844587-8C54-4DED-9CD7-2A1ED44C6B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92844587-8C54-4DED-9CD7-2A1ED44C6B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92844587-8C54-4DED-9CD7-2A1ED44C6B8C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54CA8CAB-F437-4472-AEA8-95C9259F8256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54CA8CAB-F437-4472-AEA8-95C9259F8256}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54CA8CAB-F437-4472-AEA8-95C9259F8256}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54CA8CAB-F437-4472-AEA8-95C9259F8256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8442A688-C163-4A39-986E-944C468D18E1} = {4D4BAC98-7908-4081-8F48-3C3ECD126562}
-		{2A330142-B359-45C8-9C40-08821B85AFED} = {4D4BAC98-7908-4081-8F48-3C3ECD126562}
-		{92844587-8C54-4DED-9CD7-2A1ED44C6B8C} = {4D4BAC98-7908-4081-8F48-3C3ECD126562}
-		{54CA8CAB-F437-4472-AEA8-95C9259F8256} = {4D4BAC98-7908-4081-8F48-3C3ECD126562}
 	EndGlobalSection
 EndGlobal

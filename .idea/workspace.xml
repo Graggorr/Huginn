@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02f93abb-b3a6-4ec2-a1f0-634ffad46f75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/CurrencyConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/Extensions/LoggerExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/Extensions/RuleBuilderOptionsExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/GlobalUsings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/PipelineBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Delete/DeleteUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Delete/DeleteUserResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Deposit/DepositUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Deposit/DepositUserResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Get/GetUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Get/GetUserResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/Common/ICurrencyConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/Core/CurrencyConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/Extensions/LoggerExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/Register.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/User/Delete/DeleteUserHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/User/Deposit/DepositUserHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/User/Deposit/DepositUserValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Application/User/Get/GetUserHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Common/Extensions/NumberExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Common/BaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Common/ITransactionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Core/HuginnDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Enums/Currency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Enums/TransactionStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Enums/TransactionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Models/Transaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/ModelsConfigurations/TransactionEntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/ModelsConfigurations/UserEntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Register.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Repositories/TransactionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Database/Repositories/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/Core/AppJsonSerializerContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/Core/Endpoints.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/Core/EndpointsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/ExceptionHandlers/ValidationExceptionHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/Huginn.Host.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/MappingRegister.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Huginn.Host/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Huginn.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Huginn.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Huginn.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Huginn.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application.Contract/Common/IPasswordHasher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application/Common/IPasswordHasher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application.Contract/Huginn.Application.Contract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/Huginn.Application.Contract.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application.Contract/PasswordHasher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application/Core/PasswordHasher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Create/CreateUserCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Create/CreateUserCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Create/CreateUserResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application.Contract/User/Create/CreateUserResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application/Huginn.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application/Huginn.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application/User/Create/CreateUserHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application/User/Create/CreateUserHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Application/User/Create/CreateUserValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Application/User/Create/CreateUserValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Common/Constant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Common/Constant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Common/Enums/ErrorCodes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Common/Enums/ErrorCodes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Common/GeneratedRegex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Common/GeneratedRegex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Common/Huginn.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Common/Huginn.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Database/Common/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Database/Common/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Database/Common/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Database/Common/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Database/Core/UserRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Database/Extensions/LoggerExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Database/Extensions/LoggerExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Database/Huginn.Database.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Database/Huginn.Database.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Database/HuginnDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Huginn.Database/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Huginn.Database/Models/User.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="36zdFKptOktHLF74CijXlueEgpa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/gragg/source/repos/Huginn"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02f93abb-b3a6-4ec2-a1f0-634ffad46f75" name="Changes" comment="" />
+      <created>1766013229663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766013229663</updated>
+    </task>
+    <servers />
+  </component>
+</project>
